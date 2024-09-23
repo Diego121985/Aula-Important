@@ -1,0 +1,82 @@
+/*
+position : static (padrão - Não aceitas valores de top , right e left
+positon : fixed - fixa o elemento na tela 
+position : sticky - age como um adesivo , fixa o elemento só onde eu determinar 
+position: absolute- posição absoluta ( fixa) a algum elemento ou a pagina 
+                - Se não tiver pai / pai for static=  Posiciona referente ao pagina 
+                Se o pai não for static - \Posiciona referente ao pai 
+
+                propriedades 
+                top 
+                botton 
+                left
+                right
+                */
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+
+
+}
+.div-dad{
+    height: 350px;
+    width: 350px;
+    background-color: red;
+
+}
+.div-son{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    
+}
+.pai{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}*/
+input::placeholder{
+    color: red;
+
+}
+/*p::first-letter{ seleciona só a primeira letra
+color: red;
+}*/
+p::first-line{
+color: red;
+}
+
+/*PSEUDO ELEMENTOS*/
+a{
+    color: blue;
+    text-decoration: none;
+}
+a::after{/*depois do link */
+    content:"🚀 ";
+}
+a::before{
+    content:"🚀 ";/*antes do link*/
+}
+img{
+    width: 500px;
+}
+/*PSEUDO CLASSES
+
+:Ative= quando um elemento está ativo, ou seja, está sendo pressionado
+:visited = seleciona o link que foi visitado
+:hover = quando o mouse passa em cima do elemento
+:checked = usado em radio / checkbox/ select
+:disabled= elemento disabilitado/button/ input
+:enable= elemento está abilitado 
+*/
+a{
+    color: blue;
+}
+a:visited{
+    color: red;
+
+}
