@@ -84,10 +84,10 @@
         background-color:#7dbeed;
     }
     #machine-score{
-        color: rgb(24, 24, 243);
+    color: red;
     }
     #human-score {
-        color: red;
+        color: rgb(24, 24, 243);
     }
     .result{
         text-align: center;
